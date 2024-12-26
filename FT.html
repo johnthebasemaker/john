@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .FT{
+            background: linear-gradient(50deg,blue,yellow);
+        }
+        /* .ch h5{
+          position:relative;
+          top: 100px;
+          color: transparent;
+        }
+        .ch h5:hover{
+          color:white;
+        } */
+         .wrapper{
+          padding: 10px 10%;
+         }
+         .card-area{
+          display:grid;
+          margin-top: 50px;
+          grid-gap: 30px;
+          grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+         }
+         .card{
+          position: relative;
+          border-radius: 10px;
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+          overflow: hidden;
+         }
+         .card-img{
+          display: block;
+          border-radius: 10px;
+          transition: transform 0.5s;
+         }
+         .overlay{
+          height: 0;
+          width: 100%;
+          position: absolute;
+          overflow: hidden;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          left: 0;
+          bottom: 0;
+          border-radius: 10px;
+          background: linear-gradient( transparent,#1E88E5,#ffe400 );
+          padding: 0 50px;
+          text-align: center;
+          font-size: 14px;
+          transition: height 0.5s;
+         }
+         .overlay h3{
+          margin-top: 55%;
+          margin-bottom: 5px;
+          font-size: 30px;
+          font-weight: 500;
+          letter-spacing: 2px;
+          color: white;
+         }
+         .card:hover img{
+          transform: scale(1.2);
+         }
+         .card:hover .overlay{
+          height: 100%;
+         }
+       
+         
+        
+
+       
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  FT">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">
+                <img src="../Images/FT1.png" width="35" height="30" alt="">
+                <span class="h3">FUTURE TECH</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse justify-content-end navbar-collapse nav-underline  " id="navbarNav">
+            <ul class="navbar-nav ">
+    <li class="nav-item ">
+        <a class="nav-link active" aria-current="page" href="">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link " href="">About us</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="">Settings</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="">Contact</a>
+    </li>
+   </ul>
+   <form class="d-flex ">
+    <input class="form-control me-2 label" type="search" placeholder="Search" aria-label="Search">
+   
+  </form>
+</div>
+</div>
+</nav><br>
+
+<div class="card container">
+    <div class="row g-0">
+      <div class="col-md-3 ">
+        <img src="../Images/FT1.png" class="img-fluid" alt="..." width="300px">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">FUTURE TECH ACADEMY ,Tenkasi</h5>
+          <p class="card-text">Future Tech Academy on-demand courses in emerging
+            technologies give you the knowledge you need to
+            stay ahead of the curve and succeed in today's fast-
+            paced world.  You can be confident in your skills and job readiness
+            with our placement assistance, and you will have the
+            support you need to land your dream job in your
+            desired field.</p>
+          <p class="card-text">
+            <button type="button" class="btn btn-outline-primary">More details</button>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h1 class="text-center">IT courses</h1>
+  <div class="container">
+    <div class="wrapper">
+      <div class="card-area">
+        <div class="card">
+          <img src="https://futuretechacademytenkasi.onrender.com/images/card4.jpg" class="card-img " alt="..." height="350px" width="100%">
+          <div class="overlay">
+            <h3>JAVA & Advance JAVA</h3>
+            <p>In-centre| Online| 120 Hours| Full / Part time| Career support| Placements</p>
+            <button type="button" class="btn btn-outline-primary">More details</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://futuretechacademytenkasi.onrender.com/images/card5.jpg" class="card-img " alt="..." height="350px" width="100%">
+          <div class="overlay">
+            <h3>Course of Python</h3>
+            <p>In-centre| Online| 120 Hours| Full / Part time| Career support| Placements</p>
+            <button type="button" class="btn btn-outline-primary">More details</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://futuretechacademytenkasi.onrender.com/images/card6.jpeg" class="card-img " alt="..." height="350px" width="100%">
+          <div class="overlay">
+            <h3>C#(C Sharp)</h3>
+            <p>In-centre| Online| 120 Hours| Full / Part time| Career support| Placements</p>
+            <button type="button" class="btn btn-outline-primary">More details</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://futuretechacademytenkasi.onrender.com/images/card7.jpg" class="card-img " alt="..." height="350px" width="100%">
+          <div class="overlay">
+            <h3>Dart</h3>
+            <p>In-centre| Online| 120 Hours| Full / Part time| Career support| Placements</p>
+            <button type="button" class="btn btn-outline-primary">More details</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://futuretechacademytenkasi.onrender.com/images/card8.jpg" class="card-img " alt="..." height="350px" width="100%">
+          <div class="overlay">
+            <h3>Flutter</h3>
+            <p>In-centre| Online| 120 Hours| Full / Part time| Career support| Placements</p>
+            <button type="button" class="btn btn-outline-primary">More details</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://futuretechacademytenkasi.onrender.com/images/card9.jpg" class="card-img " alt="..." height="350px" width="100%">
+          <div class="overlay">
+            <h3>App Development</h3>
+            <p>In-centre| Online| 120 Hours| Full / Part time| Career support| Placements</p>
+            <button type="button" class="btn btn-outline-primary">More details</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://futuretechacademytenkasi.onrender.com/images/card10.jpg" class="card-img " alt="..." height="350px" width="100%">
+          <div class="overlay">
+            <h3>HTML</h3>
+            <p>In-centre| Online| 120 Hours| Full / Part time| Career support| Placements</p>
+            <button type="button" class="btn btn-outline-primary">More details</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://futuretechacademytenkasi.onrender.com/images/card11.jpg" class="card-img " alt="..." height="350px" width="100%">
+          <div class="overlay">
+            <h3>JAVA Script</h3>
+            <p>In-centre| Online| 120 Hours| Full / Part time| Career support| Placements</p>
+            <button type="button" class="btn btn-outline-primary">More details</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://futuretechacademytenkasi.onrender.com/images/card12.jpg" class="card-img " alt="..." height="350px" width="100%">
+          <div class="overlay">
+            <h3>Full Stack MEAN</h3>
+            <p>In-centre| Online| 120 Hours| Full / Part time| Career support| Placements</p>
+            <button type="button" class="btn btn-outline-primary">More details</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://futuretechacademytenkasi.onrender.com/images/card13.jpg" class="card-img " alt="..." height="350px" width="100%">
+          <div class="overlay">
+            <h3>Full Stack MERN</h3>
+            <p>In-centre| Online| 120 Hours| Full / Part time| Career support| Placements</p>
+            <button type="button" class="btn btn-outline-primary">More details</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://futuretechacademytenkasi.onrender.com/images/card14.jpg" class="card-img " alt="..." height="350px" width="100%">
+          <div class="overlay">
+            <h3>Full Stack JAVA</h3>
+            <p>In-centre| Online| 120 Hours| Full / Part time| Career support| Placements</p>
+            <button type="button" class="btn btn-outline-primary">More details</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://futuretechacademytenkasi.onrender.com/images/card15.jpg" class="card-img " alt="..." height="350px" width="100%">
+          <div class="overlay">
+            <h3>Full Stack PYTHON</h3>
+            <p>In-centre| Online| 120 Hours| Full / Part time| Career support| Placements</p>
+            <button type="button" class="btn btn-outline-primary">More details</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://futuretechacademytenkasi.onrender.com/images/card16.jpg" class="card-img " alt="..." height="350px" width="100%">
+          <div class="overlay">
+            <h3>Django</h3>
+            <p>In-centre| Online| 120 Hours| Full / Part time| Career support| Placements</p>
+            <button type="button" class="btn btn-outline-primary">More details</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://futuretechacademytenkasi.onrender.com/images/card17.png" class="card-img " alt="..." height="350px" width="100%">
+          <div class="overlay">
+            <h3>Word Press </h3>
+            <p>In-centre| Online| 120 Hours| Full / Part time| Career support| Placements</p>
+            <button type="button" class="btn btn-outline-primary">More details</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://futuretechacademytenkasi.onrender.com/images/card18.jpg" class="card-img " alt="..." height="350px" width="100%">
+          <div class="overlay">
+            <h3>Asp.Net With C#</h3>
+            <p>In-centre| Online| 120 Hours| Full / Part time| Career support| Placements</p>
+            <button type="button" class="btn btn-outline-primary">More details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
